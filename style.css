@@ -1,0 +1,43 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.keliling-lingkaran {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: salmon;
+  }
+
+  .card-keliling {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  button {
+    background-color: white;
+    color: green;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: green;
+    color: white;
+  }
+
+  .form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input {
+    flex: 1;
+  }
